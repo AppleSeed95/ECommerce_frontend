@@ -1,0 +1,21 @@
+input[type="radio"] {
+  /* Hide the default radio button */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #ababab;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  /* Customize the checked radio button */
+  background-color: #2e2c2c;
+}
+
+.error {
+  border: 1px solid #ff0000;
+}
